@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Language Translator</h1>
+        <button id="theme-toggle">🌙</button>
+
+        <div class="translator">
+            <textarea id="input-text" placeholder="Enter text..."></textarea>
+
+            <div class="controls">
+                <select id="source-lang"></select>
+                <button id="swap-languages">⇄</button>
+                <select id="target-lang"></select>
+            </div>
+
+            <button id="translate-btn">Translate</button>
+
+            <textarea id="output-text" placeholder="Translation..." readonly></textarea>
+        </div>
+
+        <div class="extra-buttons">
+            <button id="copy-btn">📋 Copy</button>
+            <button id="clear-btn">❌ Clear</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
